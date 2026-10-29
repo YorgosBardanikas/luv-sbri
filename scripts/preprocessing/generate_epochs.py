@@ -4,12 +4,12 @@ around the selected event onset.
 It saves a file per session with the MUA epochs and the metadata."""
 
 import os
-import utils
 import pickle
 import numpy as np
 import xarray as xr
-from parse_sessions import parse_session
-from utils import path_mua, sessions_to_drop
+from scripts import utils
+from scripts.parse_sessions import parse_session
+from scripts.utils import path_mua, sessions_to_drop
 
 event = 'mo'
 session_group = sorted(os.listdir(path_mua))
