@@ -8,8 +8,8 @@ import pickle
 import numpy as np
 from frites.io import logger
 from scipy.special import softmax
-from parse_sessions import parse_session
-from utils import path_mua, path_bhv, sessions_to_drop
+from scripts.parse_sessions import parse_session
+from scripts.utils import path_mua, path_bhv, sessions_to_drop
 
 # --------------------------
 # Q-learning model functions

@@ -6,7 +6,7 @@ import os
 import numpy as np
 from scipy.io import loadmat
 from frites.io import logger
-from utils import path_bhv
+from scripts.utils import path_bhv
 
 # ------------------------------------------
 #           Task event codes
