@@ -2,10 +2,10 @@
 chamber per session."""
 
 import os
-import utils
 import pickle
 import string
 import numpy as np
+from scripts import utils
 
 session_group = utils.get_session_names()
 coords = []
