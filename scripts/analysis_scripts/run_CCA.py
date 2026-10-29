@@ -2,9 +2,9 @@
 This tests the existence of a shared dimension capturing their 
 covariance."""
 
-import utils
 import numpy as np
 import xarray as xr
+from scripts import utils
 from frites.io import logger
 from scipy.signal import savgol_filter
 from joblib import Parallel, delayed

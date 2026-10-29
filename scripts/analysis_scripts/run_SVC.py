@@ -5,13 +5,13 @@ and tests on late/early trials (includes test on early/late
 for control).
 """
 
-import utils
 import numpy as np
 import xarray as xr
-from scipy.signal import savgol_filter
+from scripts import utils
 from frites.io import logger
-from joblib import Parallel, delayed
 from sklearn.svm import SVC
+from joblib import Parallel, delayed
+from scipy.signal import savgol_filter
 
 # --------------------
 # Helper SVC functions

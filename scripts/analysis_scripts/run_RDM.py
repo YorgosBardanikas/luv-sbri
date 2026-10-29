@@ -6,13 +6,13 @@ across learning.
 """
 
 import os
-import utils
 import numpy as np
 import xarray as xr
-from frites.io import logger
-from utils import fig_dir
-from scipy.signal import savgol_filter
 import matplotlib.pyplot as plt
+from scripts import utils
+from frites.io import logger
+from scripts.utils import fig_dir
+from scipy.signal import savgol_filter
 from scipy.spatial.distance import pdist, squareform
 
 # -------------------

@@ -10,17 +10,16 @@ of the learning curve, in a sliding window.
 """
 
 import os
-import utils
 import pickle
 import numpy as np
 import xarray as xr
-from scipy.signal import savgol_filter
+from scripts import utils
 from frites.io import logger
-from joblib import Parallel, delayed
 from sklearn.svm import SVR
-from sklearn.model_selection import train_test_split
+from joblib import Parallel, delayed
+from scipy.signal import savgol_filter
 from run_SVR_early_late import _fit_svr_perms
-
+from sklearn.model_selection import train_test_split
 
 # Parameter setting
 event = 'fb'

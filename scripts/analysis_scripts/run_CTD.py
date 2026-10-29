@@ -6,11 +6,11 @@ directions across learning (stable vs dynamic representations).
 """
 
 import os
-import utils
 import numpy as np
 import xarray as xr
+from scripts import utils
 from frites.io import logger
-from utils import fig_dir
+from scripts.utils import fig_dir
 import matplotlib.pyplot as plt
 from scipy.signal import savgol_filter
 from joblib import Parallel, delayed

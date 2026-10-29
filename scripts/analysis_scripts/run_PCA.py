@@ -3,9 +3,9 @@ Principal Component Analysis across channels per area.
 It reduces the dimensionality (channels) of the MUA.
 """
 
-import utils
 import numpy as np
 import xarray as xr
+from scripts import utils
 from frites.io import logger
 from sklearn.decomposition import PCA
 

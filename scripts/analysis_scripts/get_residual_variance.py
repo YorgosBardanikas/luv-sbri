@@ -4,10 +4,10 @@ the residual variance as well as IG-outcome correlation."""
 
 import os
 import pickle
-import utils
 import numpy as np
 from frites.io import logger
-from utils import path_bhv
+from scripts.utils import path_bhv
+from scripts import utils
 from scipy.stats import pearsonr
 from sklearn.linear_model import LinearRegression
 
